@@ -8,4 +8,5 @@ class NLPManager:
 
     def qa(self, context: str) -> Dict[str, str]:
         # perform NLP question-answering
+        #pre-processing pipeline goes here
         return {"heading": "", "tool": "", "target": ""}
